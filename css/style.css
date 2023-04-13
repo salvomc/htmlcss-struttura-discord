@@ -10,7 +10,7 @@
 }
 
 .border{
-    border: dashed black 2px;
+    border: dashed 2px #000000;
 }
 
 /* header */
@@ -30,8 +30,8 @@ header{
 .col-60{
     height: 30px;
     width: 60%;
-    text-align: center;
     padding-top: 5px;
+    text-align: center;
     background-color: #DAA520;
 }
 
@@ -45,8 +45,8 @@ header{
 
 .align-right{
     height: 30px;
-    text-align: right;
     padding-right: 5px;
+    text-align: right;
     background-color: #DAA520;
    
 }
@@ -153,7 +153,49 @@ header{
 .col-25{
     height: 100%;
     width: calc(100% / 4);
-    border: dashed white 2px;
+    border: dashed 2px #FFFFFF;
 }
 
 /* fine main */
+
+/* footer */
+
+hr{
+    border: solid 2px #B4B3B3;
+}
+
+.f-row{
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.f-col{
+    height: 70px;
+    width: calc(100% - 50px);
+    margin: 0px 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7FFFD4;
+}
+
+.content{
+    font-size: 130%;
+    background-color: #FFB6C1;
+    padding: 5px 5px 5px 5px;
+}
+
+#logo{
+    height: 30px;
+    width: 60px;
+    text-align: center;
+}
+
+#button{
+    height: 35px;
+    width: 80px;
+    text-align: center;
+}
+
+/* fine footer */
