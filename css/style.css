@@ -152,7 +152,7 @@ header{
 
 .col-25{
     height: 100%;
-    width: calc(100% / 4);
+    width: 25%;
     border: dashed 2px #FFFFFF;
 }
 
